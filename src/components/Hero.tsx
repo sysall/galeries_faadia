@@ -16,14 +16,11 @@ export const Hero: React.FC = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
           WITH YOU,<br />
-          <span className="text-amber-400">ALWAYS</span>
+                      <span className="text-gold-400">ALWAYS</span>
         </h1>
         <p className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
           Discover your dream home with our exclusive collection of luxury properties
         </p>
-        <button className="bg-amber-400 hover:bg-amber-500 text-black px-8 py-4 rounded-md text-lg font-medium transition-all duration-300 transform hover:scale-105">
-          Book Now
-        </button>
       </div>
       
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

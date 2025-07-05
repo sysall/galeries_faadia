@@ -20,7 +20,7 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({ house, onClick }) =>
           className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
         />
         <div className="absolute top-4 right-4 bg-black/70 px-3 py-1 rounded-full">
-          <span className="text-amber-400 font-bold text-lg">{house.price}</span>
+          <span className="text-gold-400 font-bold text-lg">{house.price}</span>
         </div>
       </div>
       

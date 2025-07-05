@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-2xl font-bold text-white mb-4 md:mb-0">
-            FAADIA<span className="text-amber-400">HOMES</span>
+            FAADIA<span className="text-gold-400">HOMES</span>
           </div>
           
           <div className="flex space-x-6 text-gray-400 text-sm">

@@ -151,7 +151,7 @@ export const Modal: React.FC<ModalProps> = ({ house, isOpen, onClose }) => {
               )}
               
               <div className="absolute top-4 left-4 bg-black/70 px-3 py-1 rounded-full">
-                <span className="text-amber-400 font-bold text-lg">{house.price}</span>
+                <span className="text-gold-400 font-bold text-lg">{house.price}</span>
               </div>
               
               <div className="absolute bottom-4 right-4 bg-black/70 px-3 py-1 rounded-full">
@@ -195,7 +195,7 @@ export const Modal: React.FC<ModalProps> = ({ house, isOpen, onClose }) => {
                       onClick={() => setCurrentImageIndex(index)}
                       className={`flex-shrink-0 w-16 h-16 rounded-md overflow-hidden border-2 transition-all hover:scale-105 ${
                         index === currentImageIndex
-                          ? 'border-amber-400'
+                          ? 'border-gold-400'
                           : 'border-gray-600 hover:border-gray-400'
                       }`}
                     >
@@ -209,14 +209,14 @@ export const Modal: React.FC<ModalProps> = ({ house, isOpen, onClose }) => {
                 </div>
               )}
               
-              <div className="flex space-x-4">
-                <button className="bg-amber-400 hover:bg-amber-500 text-black px-6 py-3 rounded-md font-medium transition-colors flex-1">
+              {/*<div className="flex space-x-4">
+                <button className="bg-gold-400 hover:bg-gold-500 text-black px-6 py-3 rounded-md font-medium transition-colors flex-1">
                   Schedule Tour
                 </button>
                 <button className="bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-md font-medium transition-colors flex-1">
                   Contact Agent
                 </button>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>

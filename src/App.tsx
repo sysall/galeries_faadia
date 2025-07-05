@@ -29,10 +29,10 @@ function App() {
     <div className="bg-black min-h-screen">
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <Hero />
-      {/* <About /> */}
-      {/* <Stats /> */}
+      <About />
+      <Stats />
       <Properties houses={houses} onHouseClick={handleHouseClick} />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
       <Modal 
         house={selectedHouse} 
