@@ -14,7 +14,7 @@ export const Contact: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="flex justify-center items-center">
             <img
-              src="/src/logofaadia.jpeg"
+              src="https://firebasestorage.googleapis.com/v0/b/blackanova-backup.appspot.com/o/logofaadia.jpeg?alt=media&token=465de318-3306-40fb-bfe9-be2ecdcdb4f3"
               alt="Faadia Logo"
               className="max-w-full h-auto rounded-lg shadow-lg"
             />
